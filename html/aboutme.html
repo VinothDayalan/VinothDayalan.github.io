@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Aboutme</title>
+        <meta name="viewport" contect="width=device-width,initial-scale=1">
+        <link rel="icon" href="../images/personalpic.png">
+    </head>
+    
+    <header class="header" style="margin-left:-60px;">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--style fo header-->
+        <style>
+           
+            @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+            *{
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+                background-color: black;
+            }
+            .li, .a, .button{
+                font-family: "Montserrat",sans-serif;
+                font-weight: 500;
+                font-size: 16px;
+                color: #edf0f1;
+                text-decoration: none;
+            }
+            .header{
+                display:flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 30px 10%;
+            }
+            .logo{
+                cursor: pointer;
+            }
+            .navlink{
+                list-style: none;
+            }
+            .navlink .li{
+                display: inline-block;
+                padding: 0px 20px;
+            }
+            .a1 {
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+}
+
+ .a1::before,
+.a1::after {
+ content: '';
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+.a1::before {
+  background-color: #4bffa5;
+  height: 2px;
+  bottom: 0;
+  transform-origin: 100% 50%;
+  transform: scaleX(0);
+  transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+}
+.a1:hover::before {
+  transform-origin: 0% 50%;
+  transform: scaleX(1);
+}
+.a1 {
+  text-decoration: none;
+
+  font-weight: 700;
+  vertical-align: top;
+}
+            .button{
+                padding:9px 25px;
+                background-color: #4bffa5;
+                color:#24252A;
+                border:none;
+                border-radius: 50px;
+                cursor :pointer;
+                transition:all 0.3s ease 0s;
+            }
+            .button:hover{
+                background-color: #44fb9f8b;
+            }
+            
+            .container {
+            display: flex;
+            align-items: center;
+            justify-content: center
+          }
+         
+          .image {
+            flex-basis: 5%
+    
+          }
+          .text {
+            font-size: 12px;
+            padding-left: 10px;
+            color:#edf0f1;
+            font-family: "Montserrat",sans-serif;
+          }
+          body{
+        display: flex;
+        flex-direction: column;
+        max-width:1240px;
+        margin:0 auto;
+        width: 1240px;
+        height:auto;
+
+      }
+      .shake:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+    }
+       @keyframes shake {
+  0% { transform: translate(0px, 0px) rotate(0deg); }
+  10% { transform: translate(0px, -1px) rotate(-1deg); }
+  20% { transform: translate(-2px, 1px) rotate(1deg); }
+  30% { transform: translate(1px, 2px) rotate(0deg); }
+  40% { transform: translate(0px, -1px) rotate(1deg); }
+  50% { transform: translate(0px, 2px) rotate(-1deg); }
+  60% { transform: translate(-2px, 0px) rotate(0deg); }
+  70% { transform: translate(0px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 0px) rotate(0deg); }
+  100% { transform: translate(1px, 0px) rotate(-1deg); }
+} 
+ 
+        </style>
+        <div class="container">
+            <div class="image">
+              <img src="../images/personalpic.png" width="40px" height="40px">
+            </div>
+            <div class="text">
+              <h1><b>Vinoth </b>Dayalan</h1>
+            </div>
+          </div>
+        <nav>
+            <ul class="navlink">
+                <li class="li"><a class="a a1 shake"href="../index.html">Home</a></li>
+                <li class="li"><a class="a a1 shake" href="./resume.html">Resume</a></li>
+                <li class="li"><a class="a a1 shake" href="./aboutme.html">About Me</a></li>
+            </ul>
+        </nav>
+        </div>
+        <a class="cta" href="./contact.html"><button class="button shake">Contact</button></a>
+    </header>
+    <body style="font-family:Montserrat,sans-serif;" class="tutorial">
+        <style>
+            .text1{
+                color: white;
+                font-size: 150px;
+                text-align: center;
+                background:none !important;
+                margin-top: 20px;
+                
+            }
+            .box{
+                width: 749px;
+                height: 350px;
+                margin-left: 246px;
+                margin-top: 400px;
+            }
+            .myimg{
+                margin-top: -350px;
+                margin-left: 240px;
+                border-radius: 25px;
+            }
+            .abtext{
+                margin-top: -330px;
+                margin-left: 510px;
+                color: white;
+                font-size: 15px;
+            }
+            .font1{
+                color:#4BFFA5;
+
+            }
+            .text2{
+                margin-left: 550px;
+                margin-top: 50px;
+                font-size: 25px;
+                width: 100px;
+                color: white
+            }
+            .text3{
+                margin-left: 750px;
+                margin-top: -30px;
+                font-size: 25px;
+                width: 210px;
+                color: white
+            }
+            .text4{
+                margin-left: 550px;
+                margin-top: 50px;
+                font-size: 25px;
+                width: 270px;
+                color: white
+            }
+            .text5{
+                margin-left: 550px;
+                margin-top: 50px;
+                font-size: 25px;
+                width: 510px;
+                color: white
+            }
+            .p1{
+                font-size: 35px;
+                color: white;
+                padding-left: 240px;
+            }
+            .hrnew1{
+                width: 90px;
+                height: 3px;
+                background-color: #4BFFA5;
+                margin-left: 247px;
+                border-radius: 25px;
+            }
+            .p2{
+                color:white;
+                font-size: 20px;
+                margin-left: 330px;
+                margin-top: -10px;
+                width: 210px;
+            }
+            .emoji1{
+                font-size: 45px;
+                margin-left: 250px;
+                margin-top: -40px;
+                width: 50px;
+            }
+            .p3{
+                color: #aaa;
+                margin-left: 330px;
+            }
+            .p4{
+                color: white;
+                font-size: 20px;
+                margin-left: 750px;
+                margin-top: -101px;
+                width: 350px;
+            }
+            .emoji2{
+                font-size: 45px;
+                margin-left: 690px;
+                margin-top: -43px;
+                width: 50px;
+            }
+            .p5{
+                color:#aaa;
+                margin-left: 750px;
+            }
+            .p6{
+                font-size: 35px;
+                color: white;
+                padding-left: 240px;
+            }
+            .hrnew2{
+                width: 150px;
+                height: 3px;
+                background-color: #4BFFA5;
+                margin-left: 244px;
+                border-radius: 25px;
+                margin-top: 5px;
+            }
+            .p7{
+                color: #aaa;
+                font-size: x-large;
+                margin-left: 240px;
+            }
+            .dot {
+                height: 10px;
+                width: 10px;
+                background-color: #bbb;
+                border-radius: 50%;
+                display: inline-block;
+                margin-left:10px
+            } 
+            .dotdiv{
+                margin-top: -25px;
+                margin-left: 270px;
+            }
+            .dotcolor{
+                background-color: #4BFFA5;
+            }
+            .p8{
+                color: #aaa;
+                font-size: x-large;
+                margin-left: 240px;
+                margin-top: 25px;
+            }
+            .dotdiv1{
+                margin-top: -25px;
+                margin-left: 290px;
+            }
+            .p9{
+                color: #aaa;
+                font-size: x-large;
+                margin-left: 240px;
+                margin-top: 25px;
+                width: 120px;
+            }
+            .p10{
+                color: #aaa;
+                font-size: x-large;
+                margin-left: 240px;
+                margin-top: 25px;
+                width: 120px;
+            }
+            .p11{
+                color: #aaa;
+                font-size: x-large;
+                margin-left: 240px;
+                margin-top: 25px;
+                width: 120px;
+                height: 60px;
+            }
+            .p12{
+                color: #aaa;
+                font-size: x-large;
+                margin-left: 240px;
+                margin-top: 25px;
+                width: 120px;
+            }
+            .dotdiv2{
+                margin-top: -25px;
+                margin-left: 300px;
+            }
+            .dotdiv3{
+                margin-top: -25px;
+                margin-left: 310px;
+            }
+            .dotdiv4{
+                margin-top: -55px;
+                margin-left: 345px;
+                width: 200px;
+            }
+            .dotdiv5{
+                margin-top: -25px;
+                margin-left: 315px;
+                width: 200px;
+                
+            }
+            .p13{
+                font-size: 35px;
+                color: white;
+                padding-left: 240px;
+                padding-top: 60px;
+            }
+            .hrnew3{
+                width: 170px;
+                height: 3px;
+                background-color: #4BFFA5;
+                margin-left: 244px;
+                border-radius: 25px;
+            }
+            .hrnew4{
+                width: 170px;
+                height: 3px;
+                background-color: #4BFFA5;
+                margin-left: 244px;
+                border-radius: 25px;
+                margin-top: 5px;
+            }
+            .pcom{
+                font-size: x-large;
+                color: #aaa;
+            }
+            .okp1{
+                padding-top: 50px;
+                margin-left: 240px;
+                width: 90px;
+            }
+            .okp2{
+                margin-top: -40px;
+                margin-left: 600px;
+                width: 350px;
+            }
+            .okp3{
+                margin-top: 30px;
+                margin-left: 240px;
+                width: 280px;
+            }
+            .okp4{
+                margin-left: 600px;
+                margin-top: -40px;
+                width: 400px;
+            }
+            .okp5{
+                margin-top: 30px;
+                margin-left: 240px;
+                width: 130px;
+            }
+            .okp6{
+                margin-left: 600px;
+                margin-top: -40px;
+                width: 270px;
+            }
+            .lsp1{
+                font-size: 35px;
+                color: white;
+                padding-left: 240px;
+                margin-top: 60px;
+            }
+            .lsdivp1{
+                color: #aaa;
+                font-size: x-large;
+                margin-left: 242px;
+                margin-top: 10px;
+                width: 0px;
+            }
+            .lsdivp2{
+                color: #aaa;
+                width: 0px;
+                font-size: x-large;
+                margin-left: 662px;
+                margin-top: -32.5px;
+            }
+            .lscircle{
+                height: 100px;
+                width: 100px;
+                border-radius: 50%;
+                border: 10px solid #4BFFA5;
+                display: inline-block;
+                margin-left:240px;
+                margin-top:60px;
+                
+            }
+            .lscircle1{
+                height: 100px;
+                width: 100px;
+                border-radius: 50%;
+                border: 10px solid #4BFFA5;
+                display: inline-block;
+                margin-left:300px;
+                margin-top: -20px;
+                
+            }
+            .circlep1{
+                color: #aaa;
+                width: 0px;
+                margin-top: 30px;
+                margin-left: 20px;
+            }
+            .ep1{
+                font-size: 35px;
+    color: white;
+    padding-left: 240px;
+    margin-top: -20px;
+            }
+            .ep2{
+                color: white;
+    font-size: 20px;
+    margin-left: 248.5px;
+    margin-top: -33px;
+    width: 140px;
+    border-radius: 50px;
+}
+            
+            .ediv1{
+                width: 150px;
+    height: 40px;
+    border: 2px solid #aaaa;
+    border-radius: 50px;
+    margin-left: 240px;
+    margin-top: -20px;
+            }
+            .ep3{
+                color: rgba(255, 255, 255, 0.846);
+    margin-left: 330px;
+    font-size: 20px;
+            }
+            .ep4{
+                color: #aaa;
+    margin-left: 330px;
+    margin-top: 10px;
+            }
+            .eimg1{
+                margin-left: 230px;
+    margin-top: -100px;
+            }
+            .ep5{
+                color: #aaa;
+    margin-left: 330px;
+
+            }
+            .ediv2{
+                width: 150px;
+    height: 40px;
+    border: 2px solid #aaaa;
+    border-radius: 50px;
+    margin-left: 240px;
+    margin-top: 10px;
+            }
+            .ep6{
+                color: white;
+    font-size: 20px;
+    margin-left: 248.5px;
+    margin-top: -33px;
+    width: 140px;
+    border-radius: 50px;
+            }
+            .ep7{
+                color: rgba(255, 255, 255, 0.846);
+    margin-left: 330px;
+    font-size: 20px;
+            }
+            .eemoji{
+                font-size: 70px;
+    margin-top: -35px;
+    margin-left: 230px;
+            }
+            .ep8{
+                color: #aaa;
+    margin-left: 330px;
+    margin-top: -40px;
+
+            }
+            .ediv3{
+                width: 150px;
+    height: 100px;
+    border: 2px solid #aaaa;
+    border-radius: 10px;
+    margin-left: 450px;
+    margin-top: 10px;
+            }
+            .ep9{
+                color: white;
+    font-size: 20px;
+    margin-left: 248.5px;
+    border-radius: 50px;
+    margin-top: -60px;
+    width: 200px;
+}
+.ep10{
+    color:#aaa;
+    margin-top: -60px;
+    font-size: 40px;
+    width: 10px;
+    margin-left: 515px;
+}
+ .in1icon{
+    margin-top: -60px;
+    margin-left: 400px;
+    width: 30px;
+ }
+ .git1icon{
+    width:30px;
+    margin-top: -78.5px;
+    margin-left: 510px;
+ }
+ .hack1icon{
+    width:30px;
+    margin-top: -80px;
+    margin-left: 620px;
+ }
+ .ln1icon{
+    width: 30px;
+    margin-top: -83px;
+    margin-left: 730px;
+ }
+ .anim1{
+    font-size: 50px;
+    /* align-items: center; */
+    margin-top: 200px;
+    /* text-align: center; */
+    margin-left: 400px;
+    color: #aaa;
+ }
+ .line-1{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    /* margin: 0 auto; */
+    border-right: 2px solid rgba(255,255,255,.75);
+    /* font-size: 180%; */
+    /* text-align: center; */
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+    margin-left: 350px;
+    margin-top:150px;
+
+}
+
+ /* Animation */
+.anim-typewriter{
+             animation: typewriter 1s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 11em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+  }
+        </style>
+        <!--vertical lines-->
+        
+        <p class="line-1 anim-typewriter anim1"><font style="color: red;">$ </font><font style="color:#4BFFA5">V i n o t h</font> Dayalan ...</p>
+        <p class="text1">About Me</p>
+        
+        <br><br><br>
+        <a href="https://www.instagram.com/_hacker__vinoth._/" target="_blank" class="in1icon"><img src="../images/in1.png" width="80px" height="80px"></a> 
+        <a href="https://github.com/VinothDayalan" target="_blank" class="git1icon"><img src="../images/git1.png" width="70px" height="70px"></a> 
+        <a href="https://hackerone.com/vinoth_hacker17" target="_blank" class="hack1icon"><img src="../images/hacker1.gif" width="80px" height="80px"></a> 
+        <a href="https://www.linkedin.com/in/vinoth-kumar-d-583983247" target="_blank" class="ln1icon"><img src="../images/ln1.png" width="80px" height="80px"></a> 
+          <div>
+            <p></p>
+          </div>
+          
+          
+        <!--box-->
+        <div>
+
+            <div class="box"></div>
+            
+        </div>
+        <img src="../images/newpic.png" width="250px" height="350px"class="myimg">
+        <div>
+            <p class="abtext">Hello! I'm <font style="color:#4bffa5;font-size: 20px;">Vinoth</font>. Web Pentester and WebDesigner from India.<br> 
+                I have rich experience in web design and BugHunting,also<br>
+                I am good at programming. </p>
+            <p class="text2"><font class="font1">Age</font> 18</p>
+            <p class="text3"><font class="font1">Residence</font> India</p>
+            <p class="text4"><font class="font1">Phone</font> +91 9150871411</p>
+            <p class="text5"><font class="font1">Email</font> dayalan.vinothofficial@gmail.com</p>
+        </div>
+
+        <!--What i do-->
+        <div>
+            <br><br><br><br><br>
+            <p class="p1">What I Do</p>
+            <div class="hrnew1"></div>
+            <br><br><br>
+            <p class="p2" id="middle">Design and Develop</p>
+            <div class="emoji1">👨🏻‍💻</div>
+            <p class="p3">I can design any type of Website or<br> Webapp and can give a assurable <br>security for that...</p>
+            <p class="p4">Pentester and Bughunter</p>
+            <div class="emoji2">🥷🏻</div>
+            <p class="p5">I examine the target website or system for<br> weaknesses, including open services,<br> application security issues, and<br> open source vulnerabilities. </p>
+        </div>
+
+        <!--Programming skills-->
+        <div>
+            <br><br><br><br>
+                <p class="p6">Programming Skills</p>
+                <div class="hrnew2"></div><br><br>
+                <!--C-->
+                <div>
+                    <p class="p7">C</p>
+                    <div class="dotdiv">
+                        <p class="dot dotcolor"></p>
+                        <p class="dot dotcolor"></p>
+                        <p class="dot dotcolor"></p>
+                        <p class="dot dotcolor"></p>
+                        <p class="dot dotcolor"></p>
+                        <p class="dot dotcolor"></p>
+                        <p class="dot dotcolor"></p>
+                        <p class="dot"></p>
+                    </div>
+
+                </div>
+                
+            <!--C++-->
+            <div>
+                <p class="p8">C++</p>
+                <div class="dotdiv1">
+                    <p class="dot dotcolor"></p>
+                    <p class="dot dotcolor"></p>
+                    <p class="dot dotcolor"></p>
+                    <p class="dot dotcolor"></p>
+                    <p class="dot"></p>
+                    <p class="dot"></p>
+                    <p class="dot"></p>
+                    <p class="dot"></p>
+                </div>
+            </div>
+
+            <!--PHP-->
+            <div>
+                <p class="p9">PHP</p>
+                <div class="dotdiv2">
+                <p class="dot dotcolor"></p>
+                    <p class="dot dotcolor"></p>
+                    <p class="dot dotcolor"></p>
+                    <p class="dot dotcolor"></p>
+                    <p class="dot dotcolor"></p>
+                    <p class="dot"></p>
+                    <p class="dot"></p>
+                    <p class="dot"></p>
+                    </div>
+            </div>
+<div style="margin-left:360px;margin-top:-145px">
+            <!--swift-->
+            <div>
+                <p class="p10">Swift</p>
+                <div class="dotdiv3">
+                <p class="dot dotcolor"></p>
+                <p class="dot dotcolor"></p>
+                <p class="dot"></p>
+                <p class="dot "></p>
+                <p class="dot "></p>
+                <p class="dot"></p>
+                <p class="dot"></p>
+                <p class="dot"></p>
+            </div>
+            </div>
+            
+
+        <!--Python-->
+        <div>
+                <p class="p11">Python</p>
+               <div class="dotdiv4">
+                <p class="dot dotcolor"></p>
+                <p class="dot dotcolor"></p>
+                <p class="dot dotcolor"></p>
+                <p class="dot dotcolor"></p>
+                <p class="dot dotcolor"></p>
+                <p class="dot"></p>
+                <p class="dot"></p>
+                <p class="dot"></p>
+          </div>
+        </div>
+
+        <!--Html-->
+        <div>
+                <p class="p12">Html</p>
+            <div class="dotdiv5">
+                <p class="dot dotcolor"></p>
+                <p class="dot dotcolor"></p>
+                <p class="dot dotcolor"></p>
+                <p class="dot dotcolor"></p>
+                <p class="dot dotcolor"></p>
+                <p class="dot dotcolor"></p>
+                <p class="dot dotcolor"></p>
+                <p class="dot dotcolor"></p>
+            </div>
+        </div>
+    </div>
+        <!--Other Knowledge-->
+        <div>
+            <p class="p13">Other Knowledge</p>
+            <div class="hrnew3"></div>
+            <div class="pcom">
+                <p class="okp1"><font style="color:#4BFFA5">&#x2713;</font> Api</p>
+                <p class="okp2"><font style="color:#4BFFA5">&#x2713;</font> Operating Systems</p>
+                <p class="okp3"><font style="color:#4BFFA5">&#x2713;</font> Error Handling</p>
+                <p class="okp4"><font style="color:#4BFFA5">&#x2713;</font> Android development</p>
+                <p class="okp5"><font style="color:#4BFFA5">&#x2713;</font> Linux</p>
+                <p class="okp6"><font style="color:#4BFFA5">&#x2713;</font> Shell scripting</p>
+            </div>
+        </div>
+
+        <!--Language skills-->
+        <div>
+            <p class="lsp1">Language Skills</p>
+            <div class="hrnew4"></div>
+            <div>
+                <div class="lscircle"><p class="circlep1">100%</p></div>
+                <div class="lscircle1"><p class="circlep1">100%</p></div>
+                <p class="lsdivp1">English</p>
+                <p class="lsdivp2">Tamil</p>
+            </div>
+        </div>
+        <!--Education-->
+        <div style="    margin-top: 10px;">
+            <br><br><br><br>
+            <p class="ep1">Education</p>
+            <div class="hrnew2"></div><br><br>
+            <div class="ediv1"></div>
+            <p class="ep2">2019-Present</p><br>
+            <p class="ep3">Selfmade Ninja Academy</p>
+            <p class="ep4">World's first Virtual Academy<br> with a Virtual Private Network!</p>
+           
+            <img src="../images/sna.png"     width="80px" height="80px" class="eimg1">
+            <p class="ep5"><font style="color:red">course</font> : LAHTP ( Hacking ) , WebEngineering and API development</p>
+            <div class="ediv2"></div>
+            <p class="ep6">2021-Present</p><br>
+            <p class="ep7">Amrita University</p>
+            <p class="eemoji">🎓</p>
+            <p class="ep8">BTECH 2<sup>nd</sup> Year <font style="color:red">CyberSecurity</font></p>
+
+        </div>
+        <!--Certificats-->
+        <div style="margin-top:10px">
+            <br><br><br><br>
+            <p class="ep1">Certificates</p>
+            <div class="hrnew2"></div><br><br>
+            <div class="ediv3"></div>
+            <p class="ep9">No. of certificates:</p><br>
+            <p class="ep10">3</p>
+        </div>
+       
+        
+    </body>
+    
+    <footer style="margin-top:200px"></footer>
+</html>

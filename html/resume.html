@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>vinoth</title>
+        <meta name="description" content="">
+        <meta name="viewport" contect="width=device-width,initial-scale=1">
+        <meta http-equiv="refresh" content="4; url='../index.html'" />
+        <link rel="icon" href="../images/personalpic.png">
+    </head>
+    
+    <header class="header" style="margin-left:-60px;">
+        <!--style fo header-->
+        <style>
+           
+            @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+            *{
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+                background-color: black;
+            }
+            .li, .a, .button{
+                font-family: "Montserrat",sans-serif;
+                font-weight: 500;
+                font-size: 16px;
+                color: #edf0f1;
+                text-decoration: none;
+            }
+            .header{
+                display:flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 30px 10%;
+            }
+            .logo{
+                cursor: pointer;
+            }
+            .navlink{
+                list-style: none;
+            }
+            .navlink .li{
+                display: inline-block;
+                padding: 0px 20px;
+            }
+            .navlink .li .a{
+                transition: all 0.3s ease 0s;
+            }
+            .a1 {
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+}
+
+ .a1::before,
+.a1::after {
+ content: '';
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+.a1::before {
+  background-color: #4bffa5;
+  height: 2px;
+  bottom: 0;
+  transform-origin: 100% 50%;
+  transform: scaleX(0);
+  transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+}
+.a1:hover::before {
+  transform-origin: 0% 50%;
+  transform: scaleX(1);
+}
+.a1 {
+  text-decoration: none;
+
+  font-weight: 700;
+  vertical-align: top;
+}
+            .button{
+                padding:9px 25px;
+                background-color: #4bffa5;
+                color:#24252A;
+                border:none;
+                border-radius: 50px;
+                cursor :pointer;
+                transition:all 0.3s ease 0s;
+            }
+            .button:hover{
+                background-color: #44fb9f8b;
+            }
+            
+            .container {
+            display: flex;
+            align-items: center;
+            justify-content: center
+          }
+         
+          .image {
+            flex-basis: 5%
+    
+          }
+          .text {
+            font-size: 12px;
+            padding-left: 10px;
+            color:#edf0f1;
+            font-family: "Montserrat",sans-serif;
+          }
+          body{
+            display: flex;
+            flex-direction: column;
+            max-width:1240px;
+            margin:0 auto;
+            width: 1240px;
+            height:auto;
+    
+          }
+          .shake:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+    }
+       @keyframes shake {
+  0% { transform: translate(0px, 0px) rotate(0deg); }
+  10% { transform: translate(0px, -1px) rotate(-1deg); }
+  20% { transform: translate(-2px, 1px) rotate(1deg); }
+  30% { transform: translate(1px, 2px) rotate(0deg); }
+  40% { transform: translate(0px, -1px) rotate(1deg); }
+  50% { transform: translate(0px, 2px) rotate(-1deg); }
+  60% { transform: translate(-2px, 0px) rotate(0deg); }
+  70% { transform: translate(0px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 0px) rotate(0deg); }
+  100% { transform: translate(1px, 0px) rotate(-1deg); }
+} 
+        </style>
+        <div class="container">
+            <div class="image">
+              <img src="../images/personalpic.png" width="40px" height="40px">
+            </div>
+            <div class="text">
+              <h1><b>Vinoth </b>Dayalan</h1>
+            </div>
+          </div>
+        <nav>
+                <ul class="navlink">
+                    <li class="li"><a class="a a1 shake"href="../index.html">Home</a></li>
+                    <li class="li"><a class="a a1 shake" href="">Resume</a></li>
+                    <li class="li"><a class="a a1 shake" href="./aboutme.html">About Me</a></li>
+                </ul>
+            </nav>
+            </div>
+            <a class="cta" href="./contact.html"><button class="button shake">Contact</button></a>
+        </header>
+    <body style="font-family:Montserrat,sans-serif;">
+        <style>
+            .bp1{
+                text-align: center;
+                font-size: 100px;
+                margin-top: 250px;
+                text-decoration:line-through;
+                color: rgba(255, 0, 0, 0.702);
+            }
+        </style>
+        <p class="bp1">Under Construction</p>
+        
+    </body>
+</html>

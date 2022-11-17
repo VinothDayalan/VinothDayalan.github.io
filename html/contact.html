@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Contact</title>
+        <meta name="viewport" contect="width=device-width,initial-scale=1">
+        <link rel="icon" href="../images/personalpic.png">
+    </head>
+    
+    <header class="header" style="margin-left:-60px;">
+        <!--style fo header-->
+        <style>
+           
+            @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+            *{
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+                background-color: black;
+            }
+            .li, .a, .button{
+                font-family: "Montserrat",sans-serif;
+                font-weight: 500;
+                font-size: 16px;
+                color: #edf0f1;
+                text-decoration: none;
+            }
+            .header{
+                display:flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 30px 10%;
+            }
+            .logo{
+                cursor: pointer;
+            }
+            .navlink{
+                    list-style: none;
+                }
+                .navlink .li{
+                    display: inline-block;
+                    padding: 0px 20px;
+                }
+                .a1 {
+      overflow: hidden;
+      position: relative;
+      display: inline-block;
+    }
+    
+     .a1::before,
+    .a1::after {
+     content: '';
+      position: absolute;
+      width: 100%;
+      left: 0;
+    }
+    .a1::before {
+      background-color: #4bffa5;
+      height: 2px;
+      bottom: 0;
+      transform-origin: 100% 50%;
+      transform: scaleX(0);
+      transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+    }
+    .a1:hover::before {
+      transform-origin: 0% 50%;
+      transform: scaleX(1);
+    }
+    .a1 {
+      text-decoration: none;
+    
+      font-weight: 700;
+      vertical-align: top;
+    }
+            .button{
+                padding:9px 25px;
+                background-color: #4bffa5;
+                color:#24252A;
+                border:none;
+                border-radius: 50px;
+                cursor :pointer;
+                transition:all 0.3s ease 0s;
+            }
+            .button:hover{
+                background-color: #44fb9f8b;
+            }
+            
+            .container {
+            display: flex;
+            align-items: center;
+            justify-content: center
+          }
+         
+          .image {
+            flex-basis: 5%
+    
+          }
+          .text {
+            font-size: 12px;
+            padding-left: 10px;
+            color:#edf0f1;
+            font-family: "Montserrat",sans-serif;
+          }
+          body{
+            display: flex;
+            flex-direction: column;
+            max-width:1240px;
+            margin:0 auto;
+            width: 1240px;
+            height:auto;
+    
+          }
+          .shake:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+    }
+       @keyframes shake {
+  0% { transform: translate(0px, 0px) rotate(0deg); }
+  10% { transform: translate(0px, -1px) rotate(-1deg); }
+  20% { transform: translate(-2px, 1px) rotate(1deg); }
+  30% { transform: translate(1px, 2px) rotate(0deg); }
+  40% { transform: translate(0px, -1px) rotate(1deg); }
+  50% { transform: translate(0px, 2px) rotate(-1deg); }
+  60% { transform: translate(-2px, 0px) rotate(0deg); }
+  70% { transform: translate(0px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 0px) rotate(0deg); }
+  100% { transform: translate(1px, 0px) rotate(-1deg); }
+} 
+        </style>
+        <div class="container">
+            <div class="image">
+              <img src="../images/personalpic.png" width="40px" height="40px">
+            </div>
+            <div class="text">
+              <h1><b>Vinoth </b>Dayalan</h1>
+            </div>
+          </div>
+        <nav>
+                <ul class="navlink">
+                    <li class="li"><a class="a a1 shake"href="../index.html">Home</a></li>
+                    <li class="li"><a class="a a1 shake" href="./resume.html">Resume</a></li>
+                    <li class="li"><a class="a a1 shake" href="./aboutme.html">About Me</a></li>
+                </ul>
+            </nav>
+            </div>
+            <a class="cta" href="./contact.html"><button class="button shake">Contact</button></a>
+        </header>
+        <body>
+        <p style="font-family: Montserrat,sans-serif;">
+            <style>
+                .p1{color: whitesmoke;
+    font-size: 80px;    margin-left: 50px;
+    margin-top: 40px;}
+    .hrnew2{
+                width: 250px;
+                height: 3px;
+                background-color: #4BFFA5;
+                margin-left: 200px;
+                border-radius: 25px;
+                margin-top: 5px;
+            }
+            .p2{
+                color: #aaa;
+    font-size: x-large;
+    margin-top: 10px;
+    margin-left: 50px;
+            }
+            input[type="text"] {
+    position: relative;
+    border: 2px solid #bfbfbf;
+    border-radius: 5px;
+    display: block;
+    font-size: 1em;
+    padding: 10px 25px 10px 12px;
+    width: 200px;
+    background: 0 0;
+    text-align: left;
+    color: inherit;
+    box-shadow: none;
+    outline: none;}
+input[type="text"] {
+    color: #eee;
+    background-color: transparent;
+    border-color: #555;
+}
+.input1{
+    margin-left: 700px;
+    margin-top: -200px;
+}
+.input2{
+    margin-left: 950px;
+    margin-top: -42px;
+}
+.input3{
+    margin-top: 20px;
+    width: 450px !important;
+    margin-left: 700px;
+}
+textarea {
+    writing-mode: horizontal-tb !important;
+    font-family: monospace;
+    color: fieldtext;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    background-color: field;
+    column-count: initial !important;
+    border-width: 1px;
+    border-style: solid;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    padding: 2px;
+}
+.input4{
+    margin-left: 700px;
+    margin-top: 20px;
+    width: 450px;
+    height: 90px;
+    font-size:large;
+}
+.divtest{
+    font-family: "Poppins", Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.75em;
+    color: #d5d5d5;
+    box-sizing: border-box;
+    margin-left: 700px;
+    margin-top: 20px;
+}
+input[type="submit"]{
+    color: #fff;
+    background-color: #333;
+    box-shadow: 0px 10px 10px -8px rgb(0 0 0 / 78%);
+    /* margin-bottom: 0.75em;
+    margin-right: 0.25em; */
+    font-size: 1em;
+    line-height: 1.5;
+    border: 2px solid #007ced;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+
+}
+.div1{
+
+    width: 200px;
+    height: 150px;
+    margin-left: 40px;
+    border: 4px solid #4BFFA5;
+
+}
+.div2{
+    width: 200px;
+    height: 150px;
+    margin-left: 350px;
+    margin-top: -150px;
+    border: 4px solid #4BFFA5;
+}
+.p3{
+    font-size: 80px;
+    margin-top: -200px;
+    width: 0px;
+    margin-left: 130px;
+}
+.p4{
+    font-size: 80px;
+    margin-top: -100px;
+    width: 0px;
+    margin-left: 440px;
+}
+.p5{
+    font-size: 30px;
+    color:#d5d5d5;
+    width: 130px;
+    margin-top: -10px;
+    margin-left: 420px;
+}
+.hrnew3{
+    width: 100px;
+    height: 3px;
+    background-color: #007ced;
+    margin-left: 430px;
+    border-radius: 25px;
+    margin-top: 5px;
+            }
+            .a4{
+                text-decoration: none;
+                width: 0px;
+            }
+            .p6{
+                width: 105px;
+                margin-left: 116px;
+    margin-top: -25px;
+    font-size: 30px;
+    color:#d5d5d5;
+            }
+            .p7{
+    font-size: 30px;
+    color:#d5d5d5;
+    width: 150px;
+    margin-top: -10px;
+    margin-left: 420px;
+}
+            </style>
+            <div style="width: 600px;text-align:center;">
+                <p class="p1">Get in <font style="color:#007ced">touch</font></p>
+            <div class="hrnew2"></div>
+            <p class="p2">If you have any questions, please feel free<br>
+                to <font style="color:#aaaa"><b>shoot</b></font> me a line. If you don't get an<br> answer immediately, I might just be<br> <code>hacking</code> through the middle of<br> nowhere. I'll get back you as<br> soon as I can .<br> That's promise!!!</p>
+            </div>
+            <input class="input1" type="text" placeholder="First name">
+            <input class="input2" type="text" placeholder="Last name">
+            <input class="input3" type="text" placeholder="Email ID">
+            <input class="input3" type="text" placeholder="+91">
+            <textarea class="input4" placeholder="text"></textarea>
+            <input class="divtest"type="submit" value="submit">
+            <div style="margin-left:30px">
+                <div class="div1"></div>
+            <div class="div2"></div>
+            </div>
+            <p class="p3">📩</p>
+            <p class="p4">✌🏻</p>
+            <a href="" class="a4"><p class="p5">Tweet Me</p></a> 
+            <div class="hrnew3"></div>
+            <a href=mailto:vinothdayalan.official@gmail.com?subject=contact-me class="a4 p6">Mail Me</a>
+            <a href="" class="a4"><p class="p7">Follow Me</p></a> 
+            
+            
+            
+        </body>
+</html>

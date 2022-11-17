@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>vinoth</title>
+    <meta name="viewport" contect="width=device-width,initial-scale=1">
+    <link rel="icon" href="images/personalpic.png">
+</head>
+
+<header class="header" style="margin-left:-60px;">
+    <!--style fo header-->
+    <style>
+       
+        @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+        }
+        .li, .a, .button{
+            font-family: "Montserrat",sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            color: #edf0f1;
+            text-decoration: none;
+        }
+        .header{
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px 10%;
+        }
+        .logo{
+            cursor: pointer;
+        }
+        .navlink{
+                list-style: none;
+            }
+            .navlink .li{
+                display: inline-block;
+                padding: 0px 20px;
+            }
+            .a1 {
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+}
+
+ .a1::before,
+.a1::after {
+ content: '';
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+.a1::before {
+  background-color: #4bffa5;
+  height: 2px;
+  bottom: 0;
+  transform-origin: 100% 50%;
+  transform: scaleX(0);
+  transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+}
+.a1:hover::before {
+  transform-origin: 0% 50%;
+  transform: scaleX(1);
+}
+.a1 {
+  text-decoration: none;
+
+  font-weight: 700;
+  vertical-align: top;
+}
+        .button{
+            padding:9px 25px;
+            background-color: #4bffa5;
+            color:#24252A;
+            border:none;
+            border-radius: 50px;
+            cursor :pointer;
+            transition:all 0.3s ease 0s;
+        }
+        .button:hover{
+            background-color: #44fb9f8b;
+        }
+        
+        .container {
+        display: flex;
+        align-items: center;
+        justify-content: center
+      }
+     
+      .image {
+        flex-basis: 5%
+
+      }
+      .text {
+        font-size: 12px;
+        padding-left: 10px;
+        color:#edf0f1;
+        font-family: "Montserrat",sans-serif;
+      }
+      body{
+        display: flex;
+        flex-direction: column;
+        max-width:1240px;
+        margin:0 auto;
+        width: 1240px;
+        height:auto;
+
+      }
+      .shake:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+    }
+       @keyframes shake {
+  0% { transform: translate(0px, 0px) rotate(0deg); }
+  10% { transform: translate(0px, -1px) rotate(-1deg); }
+  20% { transform: translate(-2px, 1px) rotate(1deg); }
+  30% { transform: translate(1px, 2px) rotate(0deg); }
+  40% { transform: translate(0px, -1px) rotate(1deg); }
+  50% { transform: translate(0px, 2px) rotate(-1deg); }
+  60% { transform: translate(-2px, 0px) rotate(0deg); }
+  70% { transform: translate(0px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 0px) rotate(0deg); }
+  100% { transform: translate(1px, 0px) rotate(-1deg); }
+} 
+    </style>
+    <div class="container">
+        <div class="image">
+          <img src="images/personalpic.png" width="40px" height="40px">
+        </div>
+        <div class="text">
+          <h1><b>Vinoth </b>Dayalan</h1>
+        </div>
+      </div>
+    <nav>
+            <ul class="navlink">
+                <li class="li"><a class="a a1 shake"href="index.html">Home</a></li>
+                <li class="li"><a class="a a1 shake" href="./html/resume.html">Resume</a></li>
+                <li class="li"><a class="a a1 shake" href="./html/aboutme.html">About Me</a></li>
+            </ul>
+        </nav>
+        </div>
+        <a class="cta" href="./html/contact.html"><button class="button shake">Contact</button></a>
+    </header>
+<body style="font-family:Montserrat,sans-serif;" class="tutorial">
+    
+    <style>
+       .picimg{
+        width: 420px;
+        height: 420px;
+        margin-top:70px;
+       }
+       .w{
+        color:aliceblue;
+        margin-top: 30px;
+        text-align: center;
+       }
+       .w1{
+        color:aliceblue;
+        text-align: center;
+        font-size: 30px;
+       }
+       .w2{
+        color:aliceblue;
+        text-align: center;
+       }
+       .dot {
+  height: 110px;
+  width: 110px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: -100px;
+  margin-left: 220px;
+}
+.logo{
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: white;
+
+}
+.oval1 {
+  height: 70px;
+  width: 250px;
+  background-color: white;
+  border-radius: 30px;
+  margin-left: 150px;
+  margin-top: -520px;
+  box-shadow: 2px 4px 3px 2px rgba(255, 255, 255, 0.437);
+
+  
+}
+.oval2 {
+  height: 55px;
+  width: 300px;
+  background-color: white;
+  border-radius: 30px;
+  margin-top: 100px;
+  margin-left: 25px;
+  box-shadow: 4px 4px 4px 4px rgba(255, 255, 255, 0.437);
+}
+.oval3{
+    height: 55px;
+    width: 230px;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: -220px;
+    margin-left: 800px;
+    box-shadow: 4px 4px 4px 4px rgba(255, 255, 255, 0.437);
+}
+.oval4{
+    height: 60px;
+    width: 280px;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 100px;
+    margin-left: 900px;
+    box-shadow: 4px 4px 4px 4px rgba(255, 255, 255, 0.437);
+}
+.oval5{
+    height: 70px;
+  width: 240px;
+  background-color: white;
+  border-radius: 30px;
+  margin-top: 110px;
+    margin-left: 850px;
+    box-shadow: 4px 4px 4px 4px rgba(255, 255, 255, 0.437);
+}
+.item{
+  width: 200px;
+  margin-left: 185px;
+  margin-top: -57px;
+  font-size: 32px;
+  background-color: white;
+  padding-left: 20px;
+  font-weight: 1000;
+}
+.item1{
+    width: 200px;
+  margin-left: 90px;
+  margin-top: -50px;
+  font-size: 33px;
+  background-color: white;
+  font-weight: 500;
+}
+.item2{
+    width: 170px;
+    background-color: white;
+    margin-left: 850px;
+    font-size: 27px;
+    margin-top: -45px;
+    font-weight: 500;
+}
+.item3{
+    width: 0px;
+    background-color: white;
+    margin-left: 970px;
+    font-size: 35px;
+    margin-top: -53px;
+}
+.item4{
+    background-color: white;
+    width: 0px;
+    margin-left: 930px;
+    font-size: 27px;
+    margin-top: -52px;
+    color: black;
+}
+.emoji{
+    width: 0px;
+    background-color: white;
+    font-size: 40px;
+    height: 15px;
+    margin-left: 20px;
+}
+.emoji1{
+    width: 0px;
+    font-size: 33px;
+    padding-top: 12px;
+    margin-left: 12px;
+}
+.emoji2{
+    width: 0px;
+    font-size: 33px;
+    margin-left: 10px;
+    padding-top: 5px;
+
+}
+.emoji3{
+    width: 0px;
+    font-size: 40px;
+    margin-left: 20px;
+}
+.instalogo{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 5px;
+    text-decoration: none;
+}
+.ediv4{
+                width: 900px;
+    height: 300px;
+    border-radius: 10px;
+    outline: #4BFFA5;
+    outline-style:dashed;
+    margin-left: 160px;
+    margin-top: 10px;
+ }
+ .qp1{
+    font-size: 40px;
+    margin-top: -220px;
+    color: #aaa;
+   font-family: serif;
+   text-align: center;
+   width: 800px;
+   animation: animate 2.5s linear infinite;
+
+}
+@keyframes animate{
+   0%{
+     opacity: 0;
+   }
+   50%{
+     opacity: 1;
+   }
+   100%{
+     opacity: 0;
+   }
+ }
+ .img1{
+    margin-left: 1000px;
+    background: none;
+    margin-top: 20px;
+ }
+
+
+    </style>
+   
+    <!--img-->
+    <center><img src="images/personalpic.png" class="picimg"> </center>
+    <a target="_blank"><span class="dot"><img class="logo"src="images/logo.png" width="100px" height="100px"></span></a>
+    <!--Text-->
+    <div>
+        <p class="w">HI THERE, I'M VINOTH</p>
+        <br>
+        <p class="w1">A <b style="color:#4bffa5">Hacker</b> with passion to web</p>
+        
+    </div>
+    
+    <!--elements-->
+    <div >
+        <div class="oval1">
+            <div class="emoji1">🥷🏻</div>
+        </div>
+        <strong><p class="item">BugHunter</p></strong>
+        <div class="oval2" >
+            <div class="emoji">🎯</div>
+        </div>
+        <p class="item1">Webdesigner</p>
+        <div class="oval3">
+            <div class="emoji2">👋</div>
+        </div>
+        <p class="item2">Hi Hackers!</p>
+        <div class="oval4">
+            <div class="emoji3">👨🏻‍💻</div>
+        </div>
+        <p class="item3">PenTester</p>
+        <div class="oval5">
+            <img src="images/instalogo.png" class="instalogo" width="30px" height="30px">
+      </div>
+        <a href="https://www.instagram.com/_hacker__vinoth._/" target="_blank" style="text-decoration:none;"><p class="item4">Instagram</p></a>
+        <img class="img1"src="images/gif6.gif" width="100px" height="100px">
+ </div>
+    <!--Quotes-->
+    <div style="margin-top:100px">
+        <div class="ediv4"></div>
+        <center><p class="qp1">If you spend more on coffee than on IT security,<br> you will be hacked.<br> What's more, you deserve to be <code style="color:red">hacked!</code></p></center>
+    </div>
+    <div style="margin-top:200px"></div>
+</body>
+<footer>
+    <div style="margin-top:20px;color:#aaa">
+        <center><p class="cp"><b>&copy; Copyright hacker</b></p></center>
+        <center><p class="ds">Designed by Vinoth</p></center>
+</footer>
+</html>
