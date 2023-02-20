@@ -100,10 +100,114 @@ vertical-align: top;
     height:auto;
 
   }
-  .shake:hover {
-animation: shake 0.5s;
-animation-iteration-count: infinite;
 }
 
+@media only screen and (max-width: 768px) {
+
+    /* Custom CSS declaration for mobile devices */
 }
         
+@media only screen and (min-width: 769px) and (max-width: 1239px) {
+
+    /* Custom CSS declaration for mobile devices */
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        background-color: black;
+    }
+    .li, .a, .button{
+        font-family: "Montserrat",sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: #edf0f1;
+        text-decoration: none;
+        
+    }
+    .header{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 10%;
+    }
+    .logo{
+        cursor: pointer;
+    }
+    .navlink{
+            list-style: none;
+        }
+        .navlink .li{
+            display: inline-block;
+            padding: 0px 20px;
+        }
+        .a1 {
+overflow: hidden;
+position: relative;
+display: inline-block;
+}
+
+.a1::before,
+.a1::after {
+content: '';
+position: absolute;
+width: 100%;
+left: 0;
+}
+.a1::before {
+background-color: #4bffa5;
+height: 2px;
+bottom: 0;
+transform-origin: 100% 50%;
+transform: scaleX(0);
+transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+}
+.a1:hover::before {
+transform-origin: 0% 50%;
+transform: scaleX(1);
+}
+.a1 {
+text-decoration: none;
+
+font-weight: 700;
+vertical-align: top;
+}
+    .button{
+        padding:9px 25px;
+        background-color: #4bffa5;
+        color:#24252A;
+        border:none;
+        border-radius: 50px;
+        cursor :pointer;
+        transition:all 0.3s ease 0s;
+    }
+    .button:hover{
+        background-color: #44fb9f8b;
+    }
+    
+    .container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+ 
+  .image {
+    flex-basis: 5%
+
+  }
+  .text {
+    font-size: 12px;
+    padding-left: 10px;
+    color:#edf0f1;
+    font-family: "Montserrat",sans-serif;
+  }
+  body{
+    display: flex;
+    flex-direction: column;
+    max-width:1240px;
+    margin:0 auto;
+    width: 100%;
+    height:auto;
+
+  }
+
+}

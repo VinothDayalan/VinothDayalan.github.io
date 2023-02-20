@@ -1,190 +1,390 @@
-.picimg{
-    width: 420px;
-    height: 420px;
-    margin-top:70px;
-   }
-   .w{
-    color:aliceblue;
-    margin-top: 30px;
+@media only screen and (min-width: 1240px) {
+    .picimg{
+        width: 420px;
+        height: 420px;
+        margin-top:70px;
+       }
+       .w{
+        color:aliceblue;
+        margin-top: 30px;
+        text-align: center;
+       }
+       .w1{
+        color:aliceblue;
+        text-align: center;
+        font-size: 30px;
+       }
+       .w2{
+        color:aliceblue;
+        text-align: center;
+       }
+       .dot {
+    height: 110px;
+    width: 110px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: -100px;
+    margin-left: 220px;
+    }
+    .logo{
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: white;
+    
+    }
+    .oval1 {
+    height: 70px;
+    width: 250px;
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 150px;
+    margin-top: -520px;
+    box-shadow: 2px 4px 3px 2px rgba(255, 255, 255, 0.437);
+    
+    
+    }
+    .oval2 {
+    height: 55px;
+    width: 300px;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 100px;
+    margin-left: 25px;
+    box-shadow: 4px 4px 4px 4px rgba(255, 255, 255, 0.437);
+    }
+    .oval3{
+    height: 55px;
+    width: 230px;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: -220px;
+    margin-left: 800px;
+    box-shadow: 4px 4px 4px 4px rgba(255, 255, 255, 0.437);
+    }
+    .oval4{
+    height: 60px;
+    width: 280px;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 100px;
+    margin-left: 900px;
+    box-shadow: 4px 4px 4px 4px rgba(255, 255, 255, 0.437);
+    }
+    .oval5{
+    height: 70px;
+    width: 240px;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 110px;
+    margin-left: 850px;
+    box-shadow: 4px 4px 4px 4px rgba(255, 255, 255, 0.437);
+    }
+    .item{
+    width: 200px;
+    margin-left: 185px;
+    margin-top: -57px;
+    font-size: 32px;
+    background-color: white;
+    padding-left: 20px;
+    font-weight: 1000;
+    }
+    .item1{
+    width: 200px;
+    margin-left: 90px;
+    margin-top: -50px;
+    font-size: 33px;
+    background-color: white;
+    font-weight: 500;
+    }
+    .item2{
+    width: 170px;
+    background-color: white;
+    margin-left: 850px;
+    font-size: 27px;
+    margin-top: -45px;
+    font-weight: 500;
+    }
+    .item3{
+    width: 0px;
+    background-color: white;
+    margin-left: 970px;
+    font-size: 35px;
+    margin-top: -53px;
+    }
+    .item4{
+    background-color: white;
+    width: 0px;
+    margin-left: 930px;
+    font-size: 27px;
+    margin-top: -52px;
+    color: black;
+    }
+    .emoji{
+    width: 0px;
+    background-color: white;
+    font-size: 40px;
+    height: 15px;
+    margin-left: 20px;
+    }
+    .emoji1{
+    width: 0px;
+    font-size: 33px;
+    padding-top: 12px;
+    margin-left: 12px;
+    }
+    .emoji2{
+    width: 0px;
+    font-size: 33px;
+    margin-left: 10px;
+    padding-top: 5px;
+    
+    }
+    .emoji3{
+    width: 0px;
+    font-size: 40px;
+    margin-left: 20px;
+    }
+    .instalogo{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 5px;
+    text-decoration: none;
+    }
+    .ediv4{
+                width: 900px;
+    height: 300px;
+    border-radius: 10px;
+    outline: #4BFFA5;
+    outline-style:dashed;
+    margin-left: 160px;
+    margin-top: 10px;
+    }
+    .qp1{
+    font-size: 40px;
+    margin-top: -220px;
+    color: #aaa;
+    font-family: serif;
     text-align: center;
-   }
-   .w1{
-    color:aliceblue;
+    width: 800px;
+    animation: animate 2.5s linear infinite;
+    
+    }
+    @keyframes animate{
+    0%{
+     opacity: 0;
+    }
+    50%{
+     opacity: 1;
+    }
+    100%{
+     opacity: 0;
+    }
+    }
+    .img1{
+    margin-left: 1000px;
+    background: none;
+    margin-top: 20px;
+    }
+
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 1239px) {
+    .picimg{
+        width: 420px;
+        height: 420px;
+        margin-top:70px;
+       }
+       .w{
+        color:aliceblue;
+        margin-top: 30px;
+        text-align: center;
+        font-size: 40px;
+       }
+       .w1{
+        color:aliceblue;
+        text-align: center;
+        font-size: 50px;
+       }
+       .w2{
+        color:aliceblue;
+        text-align: center;
+       }
+       .dot {
+    height: 110px;
+    width: 110px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: -100px;
+    margin-left: 243px;
+    }
+    .logo{
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: white;
+    
+    }
+    .oval1 {
+    height: 70px;
+    width: 250px;
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 90px;
+    margin-top: -640px;
+    box-shadow: 2px 4px 3px 2px rgba(255, 255, 255, 0.437);
+    
+    
+    }
+    .oval2 {
+    height: 55px;
+    width: 300px;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 120px;
+    margin-left: 0px;
+    box-shadow: 4px 4px 4px 4px rgba(255, 255, 255, 0.437);
+    }
+    .oval3{
+    height: 55px;
+    width: 230px;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: -255px;
+    margin-left: 600px;
+    box-shadow: 4px 4px 4px 4px rgba(255, 255, 255, 0.437);
+    }
+    .oval4{
+    height: 60px;
+    width: 280px;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 100px;
+    margin-left: 680px;
+    box-shadow: 4px 4px 4px 4px rgba(255, 255, 255, 0.437);
+    }
+    .oval5{
+    height: 70px;
+    width: 240px;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 110px;
+    margin-left: 654px;
+    box-shadow: 4px 4px 4px 4px rgba(255, 255, 255, 0.437);
+    }
+    .item{
+    width: 200px;
+    margin-left: 120px;
+    margin-top: -57px;
+    font-size: 32px;
+    background-color: white;
+    padding-left: 20px;
+    font-weight: 1000;
+    }
+    .item1{
+    width: 200px;
+    margin-left: 62px;
+    margin-top: -50px;
+    font-size: 33px;
+    background-color: white;
+    font-weight: 500;
+    }
+    .item2{
+    width: 170px;
+    background-color: white;
+    margin-left: 650px;
+    font-size: 27px;
+    margin-top: -45px;
+    font-weight: 500;
+    }
+    .item3{
+    width: 0px;
+    background-color: white;
+    margin-left: 751px;
+    font-size: 35px;
+    margin-top: -53px;
+    }
+    .item4{
+    background-color: white;
+    width: 0px;
+    margin-left: 739px;
+    font-size: 27px;
+    margin-top: -52px;
+    color: black;
+    }
+    .emoji{
+    width: 0px;
+    background-color: white;
+    font-size: 40px;
+    height: 15px;
+    margin-left: 20px;
+    }
+    .emoji1{
+    width: 0px;
+    font-size: 33px;
+    padding-top: 12px;
+    margin-left: 12px;
+    }
+    .emoji2{
+    width: 0px;
+    font-size: 33px;
+    margin-left: 10px;
+    padding-top: 5px;
+    
+    }
+    .emoji3{
+    width: 0px;
+    font-size: 40px;
+    margin-left: 20px;
+    }
+    .instalogo{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 5px;
+    text-decoration: none;
+    }
+    .ediv4{
+        width: 900px;
+    height: 320px;
+    border-radius: 10px;
+    outline: #4BFFA5;
+    outline-style:dashed;
+    margin-left: 50px;
+    margin-top: 10px;
+    }
+    .qp1{
+    font-size: 40px;
+    margin-top: -290px;
+    color: #aaa;
+    font-family: serif;
     text-align: center;
-    font-size: 30px;
-   }
-   .w2{
-    color:aliceblue;
-    text-align: center;
-   }
-   .dot {
-height: 110px;
-width: 110px;
-background-color: white;
-border-radius: 50%;
-display: inline-block;
-margin-top: -100px;
-margin-left: 220px;
-}
-.logo{
-border-radius: 50%;
-margin-top: 5px;
-margin-left: 5px;
-background-color: white;
+    width: 800px;
+    animation: animate 2.5s linear infinite;
+    
+    }
+    @keyframes animate{
+    0%{
+     opacity: 0;
+    }
+    50%{
+     opacity: 1.5;
+    }
+    100%{
+     opacity: 0.7;
+    }
+    }
+    .img1{
+    margin-left: 800px;
+    background: none;
+    margin-top: 20px;
+    }
+    
 
-}
-.oval1 {
-height: 70px;
-width: 250px;
-background-color: white;
-border-radius: 30px;
-margin-left: 150px;
-margin-top: -520px;
-box-shadow: 2px 4px 3px 2px rgba(255, 255, 255, 0.437);
-
-
-}
-.oval2 {
-height: 55px;
-width: 300px;
-background-color: white;
-border-radius: 30px;
-margin-top: 100px;
-margin-left: 25px;
-box-shadow: 4px 4px 4px 4px rgba(255, 255, 255, 0.437);
-}
-.oval3{
-height: 55px;
-width: 230px;
-background-color: white;
-border-radius: 30px;
-margin-top: -220px;
-margin-left: 800px;
-box-shadow: 4px 4px 4px 4px rgba(255, 255, 255, 0.437);
-}
-.oval4{
-height: 60px;
-width: 280px;
-background-color: white;
-border-radius: 30px;
-margin-top: 100px;
-margin-left: 900px;
-box-shadow: 4px 4px 4px 4px rgba(255, 255, 255, 0.437);
-}
-.oval5{
-height: 70px;
-width: 240px;
-background-color: white;
-border-radius: 30px;
-margin-top: 110px;
-margin-left: 850px;
-box-shadow: 4px 4px 4px 4px rgba(255, 255, 255, 0.437);
-}
-.item{
-width: 200px;
-margin-left: 185px;
-margin-top: -57px;
-font-size: 32px;
-background-color: white;
-padding-left: 20px;
-font-weight: 1000;
-}
-.item1{
-width: 200px;
-margin-left: 90px;
-margin-top: -50px;
-font-size: 33px;
-background-color: white;
-font-weight: 500;
-}
-.item2{
-width: 170px;
-background-color: white;
-margin-left: 850px;
-font-size: 27px;
-margin-top: -45px;
-font-weight: 500;
-}
-.item3{
-width: 0px;
-background-color: white;
-margin-left: 970px;
-font-size: 35px;
-margin-top: -53px;
-}
-.item4{
-background-color: white;
-width: 0px;
-margin-left: 930px;
-font-size: 27px;
-margin-top: -52px;
-color: black;
-}
-.emoji{
-width: 0px;
-background-color: white;
-font-size: 40px;
-height: 15px;
-margin-left: 20px;
-}
-.emoji1{
-width: 0px;
-font-size: 33px;
-padding-top: 12px;
-margin-left: 12px;
-}
-.emoji2{
-width: 0px;
-font-size: 33px;
-margin-left: 10px;
-padding-top: 5px;
-
-}
-.emoji3{
-width: 0px;
-font-size: 40px;
-margin-left: 20px;
-}
-.instalogo{
-width: 60px;
-height: 60px;
-background-color: white;
-margin-left: 20px;
-margin-top: 5px;
-text-decoration: none;
-}
-.ediv4{
-            width: 900px;
-height: 300px;
-border-radius: 10px;
-outline: #4BFFA5;
-outline-style:dashed;
-margin-left: 160px;
-margin-top: 10px;
-}
-.qp1{
-font-size: 40px;
-margin-top: -220px;
-color: #aaa;
-font-family: serif;
-text-align: center;
-width: 800px;
-animation: animate 2.5s linear infinite;
-
-}
-@keyframes animate{
-0%{
- opacity: 0;
-}
-50%{
- opacity: 1;
-}
-100%{
- opacity: 0;
-}
-}
-.img1{
-margin-left: 1000px;
-background: none;
-margin-top: 20px;
 }
